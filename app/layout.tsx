@@ -2,22 +2,22 @@ import { Analytics } from "@vercel/analytics/react";
 import { Metadata } from "next";
 import "../styles/globals.css";
 
-let title = "Dream Room Generator";
-let description = "Generate your dream room in seconds.";
-let ogimage = "https://roomgpt-demo.vercel.app/og-image.png";
-let sitename = "roomGPT.io";
+let title = "Callforce";
+let description = "Turn Calls into Actionable Insights";
+let ogimage = "https://callforce.vercel.app/";
+let sitename = "callforce.com";
 
 export const metadata: Metadata = {
   title,
   description,
   icons: {
-    icon: "/favicon.ico",
+    icon: "/black-circle.png",
   },
   openGraph: {
     images: [ogimage],
     title,
     description,
-    url: "https://roomgpt-demo.vercel.app",
+    url: "https://callforce.vercel.app/",
     siteName: sitename,
     locale: "en_US",
     type: "website",
