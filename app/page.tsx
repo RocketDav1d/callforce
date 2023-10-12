@@ -9,15 +9,10 @@ export default function HomePage() {
     <div className="flex max-w-6xl mx-auto flex-col items-center justify-center py-2 min-h-screen">
       <Header />
       <main className="flex flex-1 w-full flex-col items-center justify-center text-center px-4 sm:mt-20 mt-20 background-gradient">
-        <a
-          href="https://vercel.fyi/roomGPT"
-          target="_blank"
-          rel="noreferrer"
-          className="border border-gray-700 rounded-lg py-2 px-4 text-gray-400 text-sm mb-5 transition duration-300 ease-in-out"
-        >
-         Anticipated by numerous{" "}
-          <span className="text-blue-600">forward-thinking companies</span>
-        </a>
+        <div className="border border-gray-700 rounded-lg py-2 px-4 text-gray-400 text-sm mb-5 transition duration-300 ease-in-out">
+         <h1>Anticipated by numerous{" "}          
+         <span className="text-blue-600">forward-thinking companies</span></h1>
+        </div>
         <h1 className="mx-auto max-w-4xl font-display text-5xl font-bold tracking-normal text-gray-300 sm:text-7xl">
         Turn Video Calls into Actionable Insights{" "}
           <span className="relative whitespace-nowrap text-blue-600">
@@ -30,12 +25,12 @@ export default function HomePage() {
         </h2>
         <Link
           className="bg-blue-600 rounded-xl text-white font-medium px-4 py-3 sm:mt-10 mt-8 hover:bg-blue-500 transition"
-          href="/dream"
+          href="https://endhtcz9hop.typeform.com/to/KpZoP8RX"
         >
           Get lifetime access - join now!
         </Link>
 
-        <div className="flex justify-between items-center w-full flex-col sm:mt-10 mt-6">
+        {/* <div className="flex justify-between items-center w-full flex-col sm:mt-10 mt-6">
           <div className="flex flex-col space-y-10 mt-4 mb-16">
             <div className="flex sm:space-x-8 sm:flex-row flex-col">
               <div>
@@ -60,7 +55,21 @@ export default function HomePage() {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
+
+    <div className="flex justify-center items-center w-full flex-col sm:mt-10 mt-6">
+      <div className="mt-4 mb-16">
+        <iframe 
+          className="rounded-2xl"
+          width="720" 
+          height="405" 
+          src="https://www.youtube.com/embed/EGW2HS2tqAQ?si=uJbASMrqXJpetSAL" 
+          title="YouTube video"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowFullScreen
+        ></iframe>
+      </div>
+    </div>
       </main>
       <Footer />
     </div>
