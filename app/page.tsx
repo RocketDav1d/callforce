@@ -27,7 +27,7 @@ export default function HomePage() {
           className="bg-blue-600 rounded-xl text-white font-medium px-4 py-3 sm:mt-10 mt-8 hover:bg-blue-500 transition"
           href="https://endhtcz9hop.typeform.com/to/KpZoP8RX"
         >
-          Get lifetime access - join now!
+          Get lifetime access for free - join now!
         </Link>
 
         {/* <div className="flex justify-between items-center w-full flex-col sm:mt-10 mt-6">
