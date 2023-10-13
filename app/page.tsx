@@ -21,7 +21,7 @@ export default function HomePage() {
           </span>{" "}
         </h1>
         <h2 className="mx-auto mt-12 max-w-xl text-lg sm:text-gray-400  text-gray-500 leading-7">
-        Transcribe, summarize, and extract key points from your video calls in real-time. Seamlessly integrate with Hubspot to automate your business processes. Be part of the future of communication!
+        Transcribe, summarize, and extract key points from your video calls in real-time. Seamlessly integrate with your CMR to automate your business processes!
         </h2>
         <Link
           className="bg-blue-600 rounded-xl text-white font-medium px-4 py-3 sm:mt-10 mt-8 hover:bg-blue-500 transition"
@@ -63,13 +63,14 @@ export default function HomePage() {
           className="rounded-2xl"
           width="720" 
           height="405" 
-          src="https://www.youtube.com/embed/EGW2HS2tqAQ?si=uJbASMrqXJpetSAL" 
+          src="https://www.youtube.com/embed/v770FI_d19I?si=7VfpFr6rdTxct2c_" 
           title="YouTube video"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
           allowFullScreen
         ></iframe>
       </div>
     </div>
+
       </main>
       <Footer />
     </div>
